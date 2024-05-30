@@ -5,6 +5,6 @@ let sessionhome= JSON.parse(sessionStorage.getItem("filteruser"))
   welcomehome.innerHTML="welcome" + " "+sessionhome[0].name
 
   logbtn.addEventListener("click",function(){
-    window.location.href='file:///D:/Route/assigments/ass11/index.html'
+    window.location.href="https://esraayahia19.github.io/Registeration/index.html"
 
   })

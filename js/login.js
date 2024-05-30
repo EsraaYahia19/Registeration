@@ -26,7 +26,8 @@ logProcess.addEventListener("click", function () {
             // console.log(exsist);
             if (exsist.length != 0) {
                 sessionStorage.setItem("filteruser", JSON.stringify(exsist))
-                window.location.href = 'file:///D:/Route/assigments/ass11/home.html'
+                window.location.href = "https://esraayahia19.github.io/Registeration/home.html"
+            
                 alertFalseEmail.classList.remove("d-flex")
                 alertFalseEmail.classList.add("d-none")
                 alertFalsePass.classList.remove("d-flex")

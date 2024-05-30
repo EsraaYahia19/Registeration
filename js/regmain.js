@@ -24,7 +24,7 @@ regProcess.addEventListener("click", function () {
         })
         if (exsist.length == 0) {
             registeer()
-            window.location.href = 'file:///D:/Route/assigments/ass11/index.html'
+            window.location.href = "https://esraayahia19.github.io/Registeration/index.html"
         } else {
 
             reuseEmail.classList.replace("d-none", "d-flex")
